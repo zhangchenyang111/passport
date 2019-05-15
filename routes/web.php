@@ -12,8 +12,8 @@
 */
 
 Route::get('/', function () {
-	phpinfo();
-    //return view('welcome');
+//	phpinfo();
+    return view('welcome');
 });
 //Route::any('rester','Index@rester');
 //Route::any('phpinfo','Index@phpinfo');
