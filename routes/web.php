@@ -22,5 +22,8 @@ Route::get('/', function () {
 //
 //
 //Route::resource('goods',GoodsController::class);
-Route::any('login','Index@login');
-Route::any('logindo','Index@logindo');
+Route::any('login','LoginController@login');
+Route::post('res','LoginController@res');
+Route::post('loginToken','LoginController@loginToken');
+Route::any('center','LoginController@center');
+
